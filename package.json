@@ -1,0 +1,31 @@
+{
+  "name": "ts-library-template",
+  "version": "0.0.0",
+  "description": "Typescript Library template to start with ESLint and basic options create library proccess",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Anartz Mugika Ledo <mugan86@gmail.com> (https://anartz-mugika.com/)",
+  "contributors": [{
+    "name": "Anartz Mugika Ledo",
+    "email": "mugan86@gmail.com"
+  }],
+  "readme": "./README.md",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "npx tsc",
+    "watch": "npx tsc -w",
+    "lint": "eslint . --ext .ts",
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.38.0",
+    "@typescript-eslint/parser": "^5.38.0",
+    "eslint": "^8.23.1",
+    "jest": "^29.0.3",
+    "ts-jest": "^29.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  }
+}
