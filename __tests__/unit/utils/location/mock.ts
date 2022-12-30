@@ -3,7 +3,10 @@ import {
   randomValues,
 } from '../../../../src/lib/utils/location/mock';
 
-describe('sum module', () => {
+describe('Locations options generate', () => {
+  test('Generate one point without pass values', () => {
+    expect(randomValues().length).toEqual(1);
+  });
   test('Generate specify points', () => {
     const vaalues = randomValues(
       10,
